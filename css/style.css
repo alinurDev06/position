@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: .4s;
+}
+
+#header {
+    position: sticky;
+    z-index: 100;
+    top: 0;
+    padding: 20px 0;
+    background: black;
+    color: white;
+}
+
+.header-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-text h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.header-navbar a {
+    color: white;
+    padding: 0 15px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.header-text button {
+    padding: 15px 30px;
+    background: blue;
+    color: white;
+    border-radius: 5px;
+
+}
+
+#hero {
+    padding: 100px 0;
+}
+
+.hero-text h1 {
+    color: black;
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.hero-text p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 35px;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.hero-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-image img {
+    height: 300px;
+}
+
+.hero-img-two {
+    position: relative;
+    right: 330px;
+}
+
+
+#footer {
+    background: black;
+    color: white;
+    padding: 20px;
+}
+
+.footer-text h1 {
+    color: white;
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+}
+
+
+
